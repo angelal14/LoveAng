@@ -1,7 +1,9 @@
+/* Set background */
 body {background-color:#EDE7FF;
 text-align: center;
 }
 
+/* Top Navigation!! */
 .topnav {
   background-color:#FFCAD8;
   overflow:hidden;
@@ -17,7 +19,12 @@ text-align: center;
 
 #photos {
   width:60px;
-  color: white;
+  color: black;
+}
+
+#songs {
+  width:60px;
+  color:black;
 }
 
 .topnav a {
@@ -43,6 +50,17 @@ text-align: center;
   color: #FF7FA2;
 }
 
+
+/* Table of Songs!!! */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+
+
+/* Text styles!!!*/
 h1 {
   color: #FF7FA2;
   line-height: 1em;
@@ -81,4 +99,10 @@ p {
   font-size:15px;
   margin-top: 0%;
   margin-bottom: 3em;
+}
+
+#tabletitle {
+  color: black;
+  font-size:25px;
+  margin-bottom:15px;
 }
