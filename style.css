@@ -51,6 +51,7 @@ h1 {
 
 h2 {
   color: #FF7FA2;
+  font-size:27px;
 }
 
 h3 {
@@ -73,4 +74,11 @@ p {
   width: 970px;
   margin-left: 100px;
   margin-right:80px;
+}
+
+#source {
+  color:#5B37C6;
+  font-size:15px;
+  margin-top: 0%;
+  margin-bottom: 3em;
 }
