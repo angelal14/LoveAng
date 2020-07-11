@@ -1,3 +1,3 @@
 # LoveAng
 
-https://angelal14.github.io/LoveAng/photos.html
+https://angelal14.github.io/LoveAng/index.html
