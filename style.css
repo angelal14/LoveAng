@@ -4,28 +4,6 @@ text-align: center;
 }
 
 /* Top Navigation!! */
-
-
-#topnav {
-  margin:0;
-  background-color:#EDE7FF;
-}
-
-#blog {
-  width:60px;
-  color: black;
-}
-
-#photos {
-  width:60px;
-  color: black;
-}
-
-#songs {
-  width:60px;
-  color:black;
-}
-
 .topnav a {
   float: left;
   color: black
@@ -45,10 +23,28 @@ text-align: center;
   color: white;
 }
 
+#blog {
+  width:60px;
+  color: black;
+}
+
+#photos {
+  width:60px;
+  color: black;
+}
+
+#songs {
+  width:60px;
+  color:black;
+}
+
 /* Absolute positioning!! */
 /* This is a really pretty color! #FF7FA2.
 So is antiquewhite. */
-
+#topnav {
+  margin:0;
+  background-color:#EDE7FF;
+}
 .parent {
   background-color: #EDE7FF;
   height: 100px;
@@ -70,9 +66,25 @@ So is antiquewhite. */
   position: absolute;
   top: 125px;
   left:24%;
-
+}
+.photos {
+  position: absolute;
+  top: 125px;
+  left:41%;
+}
+.nineteenth {
+  grid-template-columns: repeat(4, 1f);
+  grid-auto-rows: 300px;
+  grid-gap: 1em;
+  position: absolute;
+  top:2050px;
 }
 
+.songs {
+  position:absolute;
+  top:125px;
+  left:24%;
+}
 /*Absolute positioning DONE */
 
 
@@ -135,7 +147,7 @@ p {
 }
 
 #wetheurban {
-    color:#5B37C6;
+  color:#5B37C6;
   font-size:15px;
   margin-top: 0%;
   margin-bottom: 5em;
