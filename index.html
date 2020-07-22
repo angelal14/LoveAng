@@ -10,15 +10,12 @@
       .wrapper{
         display:grid;
         grid-template-columns: repeat(2,1fr);
-        grid-gap:1em;
         grid-auto-rows:300px;
-        margin-left: auto;
-        margin-right: auto;
-        
+        margin-left: 0;
+        margin-right: 0;
+        grid-gap: 2em;
       }
-      .wrapper > div{
-        padding:auto;
-      }
+
       </style>
 
   </head>
@@ -26,42 +23,47 @@
 
   <body>
     <script src="script.js"></script>
-    <h1>Love, Ang</h1>
 
     <!-- Top navigation -->
-    <div class="topnav">
-      <a class="active" id="blog">Blog</a>
-      <a href="photos.html" id="photos">Photos</a>
-      <a href="songs.html" id="songs">Songs</a>
+    <div class="parent">
+      <div class="topnav">
+        <h1 id="topnav">Love, Ang</h1>
+        <a class="active" id="blog">Blog</a>
+        <a href="photos.html" id="photos">Photos</a>
+        <a href="songs.html" id="songs">Songs</a>
+      </div>
+      <div class="wrapper">
+        <a href="assata.html" id="assata">
+          <img src="assata.png" width="250px">
+          <div id="blogtitle">Assata Shakur: To Peel Off the Wig</div>
+        </a>
+        <a href="aletter.html" id="aletter">
+          <img src="james.png" width="250px">
+          <div id="blogtitle">(Very Personal) A Letter I'll Never Send</div>
+        </a>
+        <a href="debate.html" id="debate">
+          <img src="debate.png" width="250px">
+          <div id="blogtitle">How Debate Has Changed My Life</div>
+        </a>
+        <a href="bigbanks.html" id="bigbanks">
+          <img src="bigbanks.png" width="250px">
+          <div id="blogtitle">Big Banks See Deposits Surge</div>
+        </a>
+      </div>
     </div>
 
-    <div class="wrapper">
-      <a href="assata.html" id="assata">
-        <img src="assata.png" width="250">
-        <div>Assata Shakur: To Peel Off the Wig</div>
-      </a>
-      <a href="aletter.html" id="aletter">
-        <img src="james.png" width="250px">
-        <div>(Very Personal) A Letter I'll Never Send</div>
-      </a>  
-      <a href="debate.html" id="debate">
-        <img src="debate.png" width="280">
-        <div>How Debate Has Changed My Life</div>
-      </a>
-      <a href="bigbanks.html" id="bigbanks">
-        <img src="bigbank.png" width="310px">
-        <div>Big Banks See Deposits Surge</div>
-      </a>
+  
 
       <!--
       <a href="lgbtq.html" id="lgbtq">
         <img src="lgbtq.png" width="290">
-        <div>Coming Out</div>
+        <div id="blogtitle">Coming Out</div>
       </a>
       <a href="consent.html" id="consent">
         <img src="consent.png" width="263px">
-        <div>Content Warning: Sexual Assault</div>
+        <div id="blogtitle">Content Warning: Sexual Assault</div>
       </a>
+
       <a href="blog7.html" id="blog7">
         <div>Blog 7</div>
       </a>
@@ -69,7 +71,6 @@
         <div>Blog 8</div>
       </a>
       --> 
-    </div>
     
 
   </body>
