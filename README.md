@@ -31,4 +31,4 @@ Writing in quarantine. Getting my feelings out. Not so much for sharing. Persona
 - Maybe add a 'current events' tab to my blog?
 
 ## Brief Comment
-I literally stayed up all night in order to figure out the absolute positioning issue...IT'S 4:33AM RIGHT NOW and I finally figured it out. I couldn't stop. And then I did it. Thank God for YouTube videos. 
+I literally stayed up all night to figure out the absolute positioning issue...IT'S 4:33AM RIGHT NOW and I finally figured it out. I couldn't stop. And then I did it. Thank God for YouTube videos. Signing off @ 22 July 2020.
