@@ -4,12 +4,11 @@ text-align: center;
 }
 
 /* Top Navigation!! */
-.topnav {
-  background-color:#FFCAD8;
-  overflow:hidden;
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 2em;
+
+
+#topnav {
+  margin:0;
+  background-color:#EDE7FF;
 }
 
 #blog {
@@ -46,10 +45,40 @@ text-align: center;
   color: white;
 }
 
+/* Absolute positioning!! */
+/* This is a really pretty color! #FF7FA2.
+So is antiquewhite. */
+
+.parent {
+  background-color: #EDE7FF;
+  height: 100px;
+  width: 700px;
+  left:20%;
+  position: relative;
+}
+.topnav {
+  background-color:#FFCAD8;
+  overflow:hidden;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 2em;
+  position:absolute;
+  top:25px;
+  left: 43%;
+}
+.wrapper {
+  position: absolute;
+  top: 125px;
+  left:24%;
+
+}
+
+/*Absolute positioning DONE */
+
+
 .wrapper a:hover {
   color: #FF7FA2;
 }
-
 
 /* Table of Songs!!! */
 table, th, td {
@@ -94,6 +123,10 @@ p {
   margin-right:80px;
 }
 
+#blogtitle {
+  font-size:17px;
+}
+
 #source {
   color:#5B37C6;
   font-size:15px;
@@ -113,3 +146,32 @@ p {
   font-size:25px;
   margin-bottom:15px;
 }
+
+
+/* Blog post spacing!!! 
+#assata {
+   margin-left: 19em;
+   margin-right:0%;
+   margin-bottom: 5em;
+}
+
+#aletter {
+  margin-left: 0%;
+  margin-right:19em;
+  margin-bottom: 5em;
+}
+
+#debate {
+  margin-left: 19em;
+  margin-right:0%;
+  margin-bottom: 10em;
+  margin-top: 3em;
+}
+
+#bigbanks {
+  margin-left: 0%;
+  margin-right:17em;
+  margin-bottom: 10em;
+  margin-top: 3em;
+}
+*/
