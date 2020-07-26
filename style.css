@@ -118,6 +118,8 @@ table, th, td {
 
 #table {
   margin-bottom: 2em;
+  position: absolute;
+  left: 5.5em;
 }
 
 
