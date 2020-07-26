@@ -109,6 +109,7 @@ table, th, td {
 
 
 /* Text styles!!!*/
+
 h1 {
   color: #FF7FA2;
   line-height: 1em;
@@ -120,25 +121,6 @@ h2 {
   font-size:27px;
 }
 
-h3 {
-  padding: 0%;
-  margin: 0%;
-  font-size: 21px;
-  text-align: left;
-  padding: 60px;
-  width: 970px;
-  margin-left: 100px;
-  margin-right:80px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 19px;
-  text-align: left;
-  width: 870px;
-  padding: auto;
-  margin-left:200px;
-}
 
 .wrapper a:link {
   background-color: #DADADA;
@@ -249,6 +231,97 @@ h4 {
   position: relative;
 }
 
+#assatap {
+  font-size: 19px;
+  text-align: left;
+  padding: 60px;
+  width: 970px;
+  margin-left: 100px;
+  margin-right:80px;
+  position: absolute;
+  left: 5em;
+  top: 8em;
+}
+
+#assatah1 {
+  color: #FF7FA2;
+  position: absolute;
+  left: 430px;
+  top: 0%;
+}
+
+#assatah2 {
+  color: #FF7FA2;
+  font-size:27px;
+  position: absolute;
+  left: 670px;
+  top: 3em;
+}
+
+#assatah3 {
+  color: black;
+  margin: 0%;
+  font-size: 21px;
+  text-align: left;
+  font-weight: bold;
+  position: absolute;
+  left: 600px;
+  top: 4.5em;
+}
+
+#assatah4 {
+  font-size: 19px;
+  text-align: left;
+  padding: 60px;
+  width: 970px;
+  margin-left: 100px;
+  margin-right:80px;
+  font-weight: bold;
+  position: absolute;
+  left: 95px;
+  top: 900px;
+}
+
+#bigbanksp {
+  font-size: 19px;
+  text-align: left;
+  padding: 60px;
+  width: 970px;
+  margin-left: 100px;
+  margin-right:80px;
+  position: absolute;
+  left: 3.8em;
+  top: 130px;
+}
+
+#bigbanksh1 {
+  color: #FF7FA2;
+  position: absolute;
+  left: 500px;
+}
+
+#bigbanksh2 {
+  color: #FF7FA2;
+  font-size:27px;
+  position: absolute;
+  top: 3.2em;
+  left: 500px;
+}
+
+#bigbanksh3 {
+  margin: 0%;
+  font-size: 21px;
+  text-align: left;
+  padding: 60px;
+  width: 970px;
+  margin-left: 100px;
+  margin-right:80px;
+  font-weight: bold;
+  position: absolute;
+  left: 470px;
+  top: 4.5em;
+}
+
 p {
   font-size: 19px;
   text-align: left;
@@ -262,7 +335,6 @@ p {
 }
 
 h3 {
-  padding: 0%;
   margin: 0%;
   font-size: 21px;
   text-align: left;
@@ -273,54 +345,55 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  font-size: 19px;
+  text-align: left;
+  width: 870px;
+  padding: auto;
+  margin-left:200px;
+  position: absolute;
+}
+
 #dotone {
   position: absolute;
   top: 370px;
   left: 50%;
 }
-
 #one {
   position: absolute;
   left: 95px;
   top: 425px;
 }
-
 #dottwo {
   position: absolute;
   top: 655px;
   left: 50%;
 }
-
 #two {
   position: absolute;
   left: 95px;
   top: 710px;
 }
-
 #dotthree {
   position: absolute;
   top: 960px;
   left: 50%;
 }
-
 #three {
   position: absolute;
   left: 95px;
   top: 1015px;
 }
-
 #dotfour {
   position: absolute;
   top: 1350px;
   left: 50%;
 }
-
 #four {
   position: absolute;
   left: 95px;
   top: 1405px;
 }
-
 #dotfive {
   position: absolute;
   top: 2170px;
@@ -371,7 +444,6 @@ h3 {
   left: 95px;
   top: 4780px;
 }
-
 #extradot {
   position: absolute;
   left: 50%;
