@@ -122,7 +122,14 @@ h2 {
 
 h3 {
   padding: 0%;
-  margin-top: 0%;
+  margin: 0%;
+  font-size: 21px;
+  text-align: left;
+  padding: 60px;
+  width: 970px;
+  margin-left: 100px;
+  margin-right:80px;
+  font-weight: bold;
 }
 
 h4 {
@@ -131,15 +138,6 @@ h4 {
   width: 870px;
   padding: auto;
   margin-left:200px;
-}
-
-p {
-  font-size: 19px;
-  text-align: left;
-  padding: 60px;
-  width: 970px;
-  margin-left: 100px;
-  margin-right:80px;
 }
 
 .wrapper a:link {
@@ -240,4 +238,143 @@ p {
   position: absolute;
   top: 100%;
   left: 49%;
+}
+
+
+.parentblog {
+  background-color: snow;
+  height: 100px;
+  width: 90em;
+  text-align: center;
+  position: relative;
+}
+
+p {
+  font-size: 19px;
+  text-align: left;
+  padding: 60px;
+  width: 970px;
+  margin-left: 100px;
+  margin-right:80px;
+  position: absolute;
+  left: 5em;
+  top: 50px;
+}
+
+h3 {
+  padding: 0%;
+  margin: 0%;
+  font-size: 21px;
+  text-align: left;
+  padding: 60px;
+  width: 970px;
+  margin-left: 100px;
+  margin-right:80px;
+  font-weight: bold;
+}
+
+#dotone {
+  position: absolute;
+  top: 370px;
+  left: 50%;
+}
+
+#one {
+  position: absolute;
+  left: 95px;
+  top: 425px;
+}
+
+#dottwo {
+  position: absolute;
+  top: 655px;
+  left: 50%;
+}
+
+#two {
+  position: absolute;
+  left: 95px;
+  top: 710px;
+}
+
+#dotthree {
+  position: absolute;
+  top: 960px;
+  left: 50%;
+}
+
+#three {
+  position: absolute;
+  left: 95px;
+  top: 1015px;
+}
+
+#dotfour {
+  position: absolute;
+  top: 1350px;
+  left: 50%;
+}
+
+#four {
+  position: absolute;
+  left: 95px;
+  top: 1405px;
+}
+
+#dotfive {
+  position: absolute;
+  top: 2170px;
+  left: 50%;
+}
+#five {
+  position: absolute;
+  left: 95px;
+  top: 2225px;
+}
+#dotsix {
+  position: absolute;
+  top: 2635px;
+  left: 50%;
+}
+#six {
+  position: absolute;
+  left: 95px;
+  top: 2690px;
+}
+#dotseven {
+  position: absolute;
+  top: 3015px;
+  left: 50%;
+}
+#seven {
+  position: absolute;
+  left: 95px;
+  top: 3070px;
+}
+#doteight {
+  position: absolute;
+  top: 3145px;
+  left: 50%;
+}
+#eight {
+  position: absolute;
+  left: 95px;
+  top: 3200px;
+}
+#dotnine {
+  position: absolute;
+  left: 50%;
+  top: 3660px;
+}
+#nine {
+  position: absolute;
+  left: 95px;
+  top: 4780px;
+}
+
+#extradot {
+  position: absolute;
+  left: 50%;
+  top: 4725px;
+}
 }
