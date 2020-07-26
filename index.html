@@ -1,470 +1,82 @@
-/* Set background */
-body {background-color: snow;
-text-align: center;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Love, Ang</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+    <style>
+      .wrapper{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows:300px;
+        margin-left: 0;
+        margin-right: 0;
+        grid-gap: 2em;
+      }
+      </style>
 
-/* Top Navigation!! */
-.topnav a {
-  float: left;
-  color: black
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #FFDDE6;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #FF7FA2;
-  color: white;
-}
-
-#blog {
-  width:60px;
-  color: black;
-}
-
-#photos {
-  width:60px;
-  color: black;
-}
-
-#songs {
-  width:60px;
-  color:black;
-}
-
-/* Absolute positioning!! */
-/* This is a really pretty color! #FF7FA2.
-So is antiquewhite. */
-#topnav {
-  margin:0;
-  background-color:snow;
-}
-.parent {
-  background-color: snow;
-  height: 100px;
-  width: 700px;
-  left:20%;
-  position: relative;
-}
-#endofpage {
-  margin-bottom: 1em;
-  position: absolute;
-  top: 1050px;
-  left: 695px;
-}
-.topnav {
-  background-color:#FFCAD8;
-  overflow:hidden;
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 2em;
-  position:absolute;
-  top:25px;
-  left: 43%;
-}
-.wrapper {
-  position: absolute;
-  top: 125px;
-  left:24%;
-}
-.photos {
-  position: absolute;
-  top: 125px;
-  left:41%;
-}
-.nineteenth {
-  grid-template-columns: repeat(4, 1f);
-  grid-auto-rows: 300px;
-  grid-gap: 1em;
-  position: absolute;
-  top:2500px;
-}
-
-.songs {
-  position:absolute;
-  top:125px;
-  left:24%;
-}
-/*Absolute positioning DONE */
-
-/*
-.wrapper a:hover {
-  color: #FF7FA2;
-}
-*/
-
-/* Table of Songs!!! */
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 8px;
-}
-
-#table {
-  margin-bottom: 2em;
-  position: absolute;
-  left: 5.5em;
-}
+  </head>
 
 
+  <body>
+    <script src="script.js"></script>
 
-/* Text styles!!!*/
+    <!-- Top navigation -->
+    <div class="parent">
+      <div class="topnav">
+        <h1 id="topnav">Love, Ang</h1>
+        <a class="active" id="blog">Blog</a>
+        <a href="photos.html" id="photos">Photos</a>
+        <a href="songs.html" id="songs">Songs</a>
+      </div>
+      <div class="wrapper">
+        <a href="assata.html" id="assata">
+          <img src="assata.png" width="250px">
+          <div id="blogtitle">Assata Shakur: To Peel Off the Wig</div>
+        </a>
+        <a href="consent.html" id="consent">
+        <img src="consent.png" width="250px">
+        <div id="blogtitle">Change the Way You Talk About Sexual Assault</div>
+        </a>
+        <a href="debate.html" id="debate">
+          <img src="debate.png" width="250px">
+          <div id="blogtitle">How Debate Has Changed My Life</div>
+        </a>
+        <a href="bigbanks.html" id="bigbanks">
+          <img src="bigbanks.png" width="250px">
+          <div id="blogtitle">Big Banks See Deposits Surge</div>
+        </a>
+        <a href="aletter.html" id="aletter">
+          <img src="james.png" width="250px">
+          <div id="blogtitle">(Very Personal) A Letter I'll Never Send</div>
+        </a>
+      </div>
+    </div>
 
-h1 {
-  color: #FF7FA2;
-  line-height: 1em;
-  margin-top:2em;
-}
+    <h1 id="endofpage">. . .</h1>
 
-h2 {
-  color: #FF7FA2;
-  font-size:27px;
-}
+  
 
+      <!--
+      <a href="lgbtq.html" id="lgbtq">
+        <img src="lgbtq.png" width="290">
+        <div id="blogtitle">Coming Out</div>
+      </a>
+      <a href="consent.html" id="consent">
+        <img src="consent.png" width="263px">
+        <div id="blogtitle">Content Warning: Sexual Assault</div>
+      </a>
 
-.wrapper a:link {
-  background-color: #DADADA;
-  font-size:17px;
-  color: black;
-}
-.wrapper a:hover {
-  font-size:17px;
-  color: #FF7FA2;
-}
-.wrapper a:visited {
-  font-size:17px;
-  color: #F71150;
-}
-.wrapper a:hover {
-  font-size:17px;
-  color: #FF7FA2;
-}
+      <a href="blog7.html" id="blog7">
+        <div>Blog 7</div>
+      </a>
+      <a href="blog8.html" id="blog8">
+        <div>Blog 8</div>
+      </a>
+      --> 
+    
 
-
-#blogtitle {
-  max-width: 11em;
-  text-align: justify;
-  margin-left: 2em;
-  margin-top: 0.3em;
-}
-
-#source {
-  color:#5B37C6;
-  font-size:15px;
-  margin-top: 0%;
-  margin-bottom: 3em;
-  max-width: 300px;
-}
-
-#apology {
-  color:#5B37C6;
-  font-size:15px;
-  margin-top: 0%;
-  margin-bottom: 10px;
-  max-width: 300px;
-}
-
-#apology-text {
-  color:#A68CF2;
-  font-size:15px;
-  margin-top: 0%;
-  margin-bottom: 3em;
-  max-width: 300px;
-  text-align: justify;
-}
-
-#wetheurban {
-  color:#5B37C6;
-  font-size:15px;
-  margin-top: 0%;
-  margin-bottom: 5em;
-}
-
-#tabletitle {
-  color: black;
-  font-size:25px;
-  margin-bottom:15px;
-}
-
-
-/* Blog post spacing!!! 
-#assata {
-   margin-left: 19em;
-   margin-right:0%;
-   margin-bottom: 5em;
-}
-
-#aletter {
-  margin-left: 0%;
-  margin-right:19em;
-  margin-bottom: 5em;
-}
-
-#debate {
-  margin-left: 19em;
-  margin-right:0%;
-  margin-bottom: 10em;
-  margin-top: 3em;
-}
-
-#bigbanks {
-  margin-left: 0%;
-  margin-right:17em;
-  margin-bottom: 10em;
-  margin-top: 3em;
-}
-*/
-
-
-.parentblog {
-  background-color: snow;
-  height: 100px;
-  width: 90em;
-  text-align: center;
-  position: relative;
-}
-
-#assatap {
-  font-size: 19px;
-  text-align: left;
-  padding: 60px;
-  width: 970px;
-  margin-left: 100px;
-  margin-right:80px;
-  position: absolute;
-  left: 5em;
-  top: 8em;
-}
-
-#assatah1 {
-  color: #FF7FA2;
-  position: absolute;
-  left: 430px;
-  top: 0%;
-}
-
-#assatah2 {
-  color: #FF7FA2;
-  font-size:27px;
-  position: absolute;
-  left: 670px;
-  top: 3em;
-}
-
-#assatah3 {
-  color: black;
-  margin: 0%;
-  font-size: 21px;
-  text-align: left;
-  font-weight: bold;
-  position: absolute;
-  left: 600px;
-  top: 4.5em;
-}
-
-#assatah4 {
-  font-size: 19px;
-  text-align: left;
-  padding: 60px;
-  width: 970px;
-  margin-left: 100px;
-  margin-right:80px;
-  font-weight: bold;
-  position: absolute;
-  left: 95px;
-  top: 900px;
-}
-
-#bigbanksp {
-  font-size: 19px;
-  text-align: left;
-  padding: 60px;
-  width: 970px;
-  margin-left: 100px;
-  margin-right:80px;
-  position: absolute;
-  left: 3.8em;
-  top: 130px;
-}
-
-#bigbanksh1 {
-  color: #FF7FA2;
-  position: absolute;
-  left: 500px;
-}
-
-#bigbanksh2 {
-  color: #FF7FA2;
-  text-align: center;
-  font-size:27px;
-  position: absolute;
-  top: 3.2em;
-  left: 555px;
-}
-
-#bigbanksh3 {
-  margin: 0%;
-  font-size: 21px;
-  text-align: left;
-  padding: 60px;
-  width: 970px;
-  margin-left: 100px;
-  margin-right:80px;
-  font-weight: bold;
-  position: absolute;
-  left: 470px;
-  top: 4.5em;
-}
-
-#consenth2 {
-  position: absolute;
-  top: 2.7em;
-  left: 39%;
-}
-
-#consenth3 {
-  position: absolute;
-  top:3.5em;
-  left: 37%;
-}
-
-#consentp {
-  position: absolute;
-  top: 6em;
-  left:95px;
-}
-
-p {
-  font-size: 19px;
-  text-align: left;
-  padding: 60px;
-  width: 970px;
-  margin-left: 100px;
-  margin-right:80px;
-  position: absolute;
-  left: 5em;
-  top: 50px;
-}
-
-h3 {
-  margin: 0%;
-  font-size: 21px;
-  text-align: left;
-  padding: 60px;
-  width: 970px;
-  margin-left: 100px;
-  margin-right:80px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 19px;
-  text-align: left;
-  width: 870px;
-  padding: auto;
-  margin-left:200px;
-  position: absolute;
-}
-
-#dotone {
-  position: absolute;
-  top: 370px;
-  left: 50%;
-}
-#one {
-  position: absolute;
-  left: 95px;
-  top: 425px;
-}
-#dottwo {
-  position: absolute;
-  top: 655px;
-  left: 50%;
-}
-#two {
-  position: absolute;
-  left: 95px;
-  top: 710px;
-}
-#dotthree {
-  position: absolute;
-  top: 960px;
-  left: 50%;
-}
-#three {
-  position: absolute;
-  left: 95px;
-  top: 1015px;
-}
-#dotfour {
-  position: absolute;
-  top: 1350px;
-  left: 50%;
-}
-#four {
-  position: absolute;
-  left: 95px;
-  top: 1405px;
-}
-#dotfive {
-  position: absolute;
-  top: 2170px;
-  left: 50%;
-}
-#five {
-  position: absolute;
-  left: 95px;
-  top: 2225px;
-}
-#dotsix {
-  position: absolute;
-  top: 2635px;
-  left: 50%;
-}
-#six {
-  position: absolute;
-  left: 95px;
-  top: 2690px;
-}
-#dotseven {
-  position: absolute;
-  top: 3015px;
-  left: 50%;
-}
-#seven {
-  position: absolute;
-  left: 95px;
-  top: 3070px;
-}
-#doteight {
-  position: absolute;
-  top: 3145px;
-  left: 50%;
-}
-#eight {
-  position: absolute;
-  left: 95px;
-  top: 3200px;
-}
-#dotnine {
-  position: absolute;
-  left: 50%;
-  top: 3660px;
-}
-#nine {
-  position: absolute;
-  left: 95px;
-  top: 4780px;
-}
-#extradot {
-  position: absolute;
-  left: 50%;
-  top: 4725px;
-}
-}
+  </body>
+</html>
