@@ -88,9 +88,26 @@ So is antiquewhite. */
 /*Absolute positioning DONE */
 
 
-.wrapper a:hover {
-  color: #FF7FA2;
+/* Edit Link Formatting */
+.wrapper a:link {
+  font-size:17px;
+  color: black;
+  text-decoration: none;
+  background-color: #DADADA;
 }
+
+.wrapper a:hover {
+  font-size:17px;
+  color: #FF7FA2;
+  text-decoration: none;
+}
+
+.wrapper a:visited {
+  font-size:17px;
+  color: #FF7FA2;
+  text-decoration: underline;
+}
+
 
 /* Table of Songs!!! */
 table, th, td {
