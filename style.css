@@ -302,10 +302,11 @@ h2 {
 
 #bigbanksh2 {
   color: #FF7FA2;
+  text-align: center;
   font-size:27px;
   position: absolute;
   top: 3.2em;
-  left: 500px;
+  left: 555px;
 }
 
 #bigbanksh3 {
