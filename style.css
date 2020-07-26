@@ -116,6 +116,9 @@ table, th, td {
   padding: 8px;
 }
 
+#table {
+  margin-bottom: 2em;
+}
 
 
 /* Text styles!!!*/
