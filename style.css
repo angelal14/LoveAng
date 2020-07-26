@@ -52,6 +52,12 @@ So is antiquewhite. */
   left:20%;
   position: relative;
 }
+#endofpage {
+  margin-bottom: 1em;
+  position: absolute;
+  top: 1050px;
+  left: 695px;
+}
 .topnav {
   background-color:#FFCAD8;
   overflow:hidden;
@@ -214,13 +220,6 @@ h2 {
   margin-top: 3em;
 }
 */
-
-#endofpage {
-  margin-bottom: 1em;
-  position: absolute;
-  top: 1050px;
-  left: 49%;
-}
 
 
 .parentblog {
