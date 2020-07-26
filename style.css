@@ -87,27 +87,11 @@ So is antiquewhite. */
 }
 /*Absolute positioning DONE */
 
-
-/* Edit Link Formatting */
-.wrapper a:link {
-  font-size:17px;
-  color: black;
-  text-decoration: none;
-  background-color: #DADADA;
-}
-
+/*
 .wrapper a:hover {
-  font-size:17px;
   color: #FF7FA2;
-  text-decoration: none;
 }
-
-.wrapper a:visited {
-  font-size:17px;
-  color: #FF7FA2;
-  text-decoration: underline;
-}
-
+*/
 
 /* Table of Songs!!! */
 table, th, td {
@@ -121,6 +105,7 @@ table, th, td {
   position: absolute;
   left: 5.5em;
 }
+
 
 
 /* Text styles!!!*/
@@ -157,8 +142,30 @@ p {
   margin-right:80px;
 }
 
-#blogtitle {
+.wrapper a:link {
+  background-color: #DADADA;
   font-size:17px;
+  color: black;
+}
+.wrapper a:hover {
+  font-size:17px;
+  color: #FF7FA2;
+}
+.wrapper a:visited {
+  font-size:17px;
+  color: #F71150;
+}
+.wrapper a:hover {
+  font-size:17px;
+  color: #FF7FA2;
+}
+
+
+#blogtitle {
+  max-width: 11em;
+  text-align: justify;
+  margin-left: 2em;
+  margin-top: 0.3em;
 }
 
 #source {
@@ -197,10 +204,6 @@ p {
   color: black;
   font-size:25px;
   margin-bottom:15px;
-}
-
-#redacted {
-  text-align: center;
 }
 
 
